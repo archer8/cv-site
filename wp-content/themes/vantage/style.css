@@ -2883,3 +2883,22 @@ body.layout-full{
     font-size: 38px;
     font-weight: bold;
 }
+.content-block h3 {
+    line-height: 45px;
+}
+.content-block a {
+    text-decoration: none;
+}
+
+/* portfolio page */
+.web-item {
+    margin-bottom: 25px;
+    display: block;
+}
+.portfolio-items {
+
+}
+#menu-buttons {
+    display: inline-block;
+    margin-bottom: 20px;
+}

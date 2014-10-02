@@ -13,7 +13,7 @@
 
         <div class="row">
             <div class="col-lg-4">
-                <div class="text-center">
+                <div class="text-center content-block">
                     <a href='https://github.com/archer8'>
                         <img src="<?php echo get_template_directory_uri(); ?>/images/Octocat-157.png" alt="octocat">
                         <br>
@@ -24,18 +24,7 @@
 
             </div>
             <div class="col-lg-4">
-                <div class="text-center">
-                    <a href="http://stackoverflow.com/users/1909155/chris">
-                        <img src="<?php echo get_template_directory_uri(); ?>/images/so-icon.png" alt="stackoverflow">
-                        <br>
-                        <h3>stackoverflow</h3>
-                        <p>My questions and contributions to stackoverflow.</p>
-                    </a>
-                </div><!-- #content .site-content -->
-
-            </div>
-            <div class="col-lg-4">
-                <div class="text-center">
+                <div class="text-center content-block">
                     <a href="portfolio">
                         <img src="<?php echo get_template_directory_uri(); ?>/images/pencil-157.png" alt="portfolio"> 
                         <br>
@@ -45,6 +34,19 @@
                 </div><!-- #content .site-content -->
 
             </div>
+            
+            <div class="col-lg-4">
+                <div class="text-center content-block">
+                    <a href="http://stackoverflow.com/users/1909155/chris">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/so-icon.png" alt="stackoverflow">
+                        <br>
+                        <h3>stackoverflow</h3>
+                        <p>My questions and contributions to stackoverflow.</p>
+                    </a>
+                </div><!-- #content .site-content -->
+
+            </div>
+            
         </div>
 
     </div><!-- #primary .content-area -->
