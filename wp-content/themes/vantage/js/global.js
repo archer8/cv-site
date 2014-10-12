@@ -1,4 +1,4 @@
-$( function() {
+jQuery( function ( $ ) {
   // init Isotope
   var $container = $('.portfolio-items').isotope({
     itemSelector: '.web-item',
@@ -53,3 +53,4 @@ $( function() {
   });
   
 });
+

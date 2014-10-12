@@ -1,0 +1,1 @@
+new CBPGridGallery( document.getElementById( 'portfolio-items' ) );
