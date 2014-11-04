@@ -509,8 +509,15 @@ body.no-sidebar #primary{
     width:23.762%;
 }
 #main{
-    background:#FCFCFC;
+    background-image: url("images/kale.jpg");
     padding:35px;
+}
+#primary-portfolio {
+    background-color: #efefef;
+    border-radius: 10px;
+}
+#filters {
+    margin-top: 20px;
 }
 #main-slider{
     line-height:0;
@@ -2889,11 +2896,33 @@ body.layout-full{
 .content-block a {
     text-decoration: none;
 }
+.content-block {
+    margin: 25px;
+    padding: 10px;
+}
+.content-block:hover {
+    background: #00bafa;
+    padding: 10px; 
+    border-radius: 20px;
+}
+.content-block:hover a {
+    color: #fff;
+
+}
+.web-item:hover {
+    background: #00bafa;
+    color: #fff;
+}
+
 
 /* portfolio page */
 .web-item {
     margin-bottom: 25px;
     display: block;
+    padding: 4px;
+    background: #fff;
+    margin: 10px;
+    border-radius: 5px;
 }
 .portfolio-items {
 
@@ -2901,7 +2930,7 @@ body.layout-full{
 #menu-buttons {
     display: inline-block;
     margin-bottom: 20px;
-    
+
 }
 #close-icon {
     z-index: 999;

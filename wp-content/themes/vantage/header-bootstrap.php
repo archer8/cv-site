@@ -25,7 +25,8 @@
 
     </head>
 
-    <body <?php body_class(); ?>>
+    <body <?php body_class(); ?> >
+        
 
         <?php do_action('vantage_before_page_wrapper') ?>
 

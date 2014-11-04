@@ -206,9 +206,10 @@ function vantage_scripts() {
     wp_enqueue_script('imagesloaded', get_template_directory_uri() . '/js/imagesloaded.min.js', array(), '3.1.8', true);
     wp_enqueue_script('isotope', get_template_directory_uri() . '/js/isotope.min.js', array(), '2.0.1', true);
     
+
     wp_enqueue_script('global', get_template_directory_uri() . '/js/global.js', array(), '1.0', true);
 
-    if(is_page_template('portfolio.php')){
+    if (is_page_template('portfolio.php')) {
         wp_enqueue_style('component', get_template_directory_uri() . '/css/component.css');
         wp_enqueue_script('classie', get_template_directory_uri() . '/js/classie.js', array(), '1.0.0', true);
         wp_enqueue_script('cbpGridGallery', get_template_directory_uri() . '/js/cbpGridGallery.js', array(), '1.0.0', true);
@@ -345,15 +346,15 @@ function vantage_render_slider() {
     global $vantage_is_main_slider;
     $vantage_is_main_slider = true;
     ?><div id="main-slider" <?php if (siteorigin_setting('home_slider_stretch')) echo 'data-stretch="true"' ?>><?php
-    if ($slider == 'demo')
-        get_template_part('slider/demo');
-    elseif (substr($slider, 0, 5) == 'meta:') {
-        list($null, $slider_id) = explode(':', $slider);
-        $slider_id = intval($slider_id);
+        if ($slider == 'demo')
+            get_template_part('slider/demo');
+        elseif (substr($slider, 0, 5) == 'meta:') {
+            list($null, $slider_id) = explode(':', $slider);
+            $slider_id = intval($slider_id);
 
-        echo do_shortcode("[metaslider id=" . $slider_id . "]");
-    }
-    ?></div><?php
+            echo do_shortcode("[metaslider id=" . $slider_id . "]");
+        }
+        ?></div><?php
     $vantage_is_main_slider = false;
 }
 
@@ -403,8 +404,8 @@ function vantage_get_site_width() {
 function vantage_responsive_header() {
     if (siteorigin_setting('layout_responsive')) {
         ?><meta name="viewport" content="width=device-width, initial-scale=1" /><?php
-    } else {
-        ?><meta name="viewport" content="width=1280" /><?php
+        } else {
+            ?><meta name="viewport" content="width=1280" /><?php
     }
 }
 

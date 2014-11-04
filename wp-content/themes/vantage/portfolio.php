@@ -11,7 +11,7 @@
 
 <div id="primary-portfolio" class="content-area">
     <div id="content" class="site-content" role="main">
-
+        
 
         <div id="filters" class="btn-group col-lg-12">  
             <button type="button" class="button btn btn-default is-checked" data-filter="*">All Websites</button>
@@ -63,6 +63,7 @@
                             <figure>
                                 <figcaption>
                                     <h3><?php echo $value['title']; ?></h3>
+                                   
                                     <?php echo $value['description']; ?>
                                 </figcaption>
                                 <a href="<?php echo $value['link']; ?>">
